@@ -11,13 +11,13 @@
 </head>
 
 <body>
-
-<ul id="slide-out" class="side-nav fixed">
+<div class="container">
+<ul id="slide-out" class="side-nav">
     <li><div class="userView">
-      <img class="background" src="{{ asset('img/technology.jpg') }}">
-      <a href="#!user"><img class="circle" src="{{ asset('img/somrat.jpg') }}"></a>
-      <a href="#!name"><span class="black-text name">G. M. Nazmul Hossain</span></a>
-      <a href="#!email"><span class="black-text email">eng.nazmulhossain@gmail.com</span></a>
+      <img class="background" src="images/office.jpg">
+      <a href="#!user"><img class="circle" src="images/yuna.jpg"></a>
+      <a href="#!name"><span class="white-text name">John Doe</span></a>
+      <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
     </div></li>
     <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
     <li><a href="#!">Second Link</a></li>
@@ -25,44 +25,20 @@
     <li><a class="subheader">Subheader</a></li>
     <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
   </ul>
+
   
   <nav>
     <div class="nav-wrapper">
-    <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
-      <a href="#" class="brand-logo center">Task Management</a>
+      <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+      <a href="#" class="brand-logo center">Logo</a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">JavaScript</a></li>
+      </ul>
     </div>
   </nav>
-    
- <div class="container">   
- 
-    Navbar goes here
-
-    <!-- Page Layout here -->
-    <div class="row">
-
-      <div class="col s12 m4 l3"> <!-- Note that "m4 l3" was added -->
-        Grey navigation panel
-
-              This content will be:
-          3-columns-wide on large screens,
-          4-columns-wide on medium screens,
-          12-columns-wide on small screens 
-
-      </div>
-
-      <div class="col s12 m8 l9"> <!-- Note that "m8 l9" was added -->
-        Teal page content
-
-              This content will be:
-          9-columns-wide on large screens,
-          8-columns-wide on medium screens,
-          12-columns-wide on small screens 
-
-      </div>
-
-    </div>
-</div>
-
+ </div>   
 <script type="text/javascript" src="{{ asset('js/jquery-3.1.0.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/materialize.min.js') }}"></script>
 <script type="text/javascript">
