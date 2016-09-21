@@ -26,7 +26,7 @@
     <li><a href="http://www.somrat.info/">ABOUT ME</a></li>
   </ul>
   
-   <nav>
+   <nav class="#00897b teal darken-1">
     <div class="nav-wrapper">
     <a href="#" data-activates="slide-out" class="button-collapse" style="
     display: -webkit-box;"><i class="material-icons">menu</i></a>
