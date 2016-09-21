@@ -4,6 +4,7 @@
   <!--Import Google Icon Font-->
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}"  media="screen,projection"/>
   <link type="text/css" rel="stylesheet" href="{{ asset('css/materialize.min.css') }}"  media="screen,projection"/>
   <link type="text/css" rel="stylesheet" href="{{ asset('css/style.css') }}"  media="screen,projection"/>
 
@@ -13,6 +14,7 @@
 
 <body>
 <div class="container">
+<div class="row"> 
  <ul id="slide-out" class="side-nav">
     <li><div class="userView">
       <img class="background" src="{{ asset('img/technology.jpg') }}">
@@ -33,10 +35,44 @@
     <a href="#!" class="brand-logo center">To Do List</a>
     </div>
   </nav>
- 
+ </div>
 </div>
 <div class="container">
-  
+  <div class="row">
+    <h4>Task Management</h4>
+  </div>
+  <div class="row">
+    <table class="striped responsive-table">
+        <thead>
+          <tr>
+              <th>No</th>
+              <th>Title</th>
+              <th>Description</th>
+              <th>Action</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td width="5%">Alvin</td>
+            <td width="15%">Eclair</td>
+            <td width="40%">$0.87</td>
+            <td width="20%"><a class="waves-effect waves-light btn #0d47a1 blue darken-4">Edit</a> <a class="waves-effect waves-light btn #ff1744 red accent-3">Delete</a></td>
+          </tr>
+          <tr>
+            <td width="5%">Alvin</td>
+            <td width="15%">Eclair</td>
+            <td width="40%">$0.87</td>
+            <td width="20%"><a class="waves-effect waves-light btn #0d47a1 blue darken-4">Edit</a> <a class="waves-effect waves-light btn #ff1744 red accent-3">Delete</a></td>
+          </tr><tr>
+            <td width="5%">Alvin</td>
+            <td width="15%">Eclair</td>
+            <td width="40%">$0.87</td>
+            <td width="20%"><a class="waves-effect waves-light btn #0d47a1 blue darken-4">Edit</a> <a class="waves-effect waves-light btn #ff1744 red accent-3">Delete</a></td>
+          </tr>
+        </tbody>
+      </table>
+  </div>
 </div>
 
 
